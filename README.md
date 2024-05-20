@@ -1,4 +1,4 @@
-Predicción de Calidad de Vino con Red Neuronal Artificial (RNA)
+#Predicción de Calidad de Vino con Red Neuronal Artificial (RNA)
 Este proyecto utiliza una Red Neuronal Artificial (RNA) para predecir si un vino es de alta calidad (puntuación igual o superior a 7) o baja calidad (puntuación inferior a 7) basándose en sus características fisicoquímicas.
 
 Contenido
