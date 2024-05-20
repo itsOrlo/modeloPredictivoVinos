@@ -1,49 +1,73 @@
-#Predicción de Calidad de Vino con Red Neuronal Artificial (RNA)
-Este proyecto utiliza una Red Neuronal Artificial (RNA) para predecir si un vino es de alta calidad (puntuación igual o superior a 7) o baja calidad (puntuación inferior a 7) basándose en sus características fisicoquímicas.
+# 🍷 Predicción de Calidad de Vino con Red Neuronal Artificial (RNA) 🍷
 
-Contenido
-wine_quality.csv: El dataset utilizado para entrenar y evaluar el modelo (asegúrate de incluirlo en tu repositorio).
-modelo_vino.ipynb (o .py): El código fuente con la implementación completa del modelo, incluyendo comentarios detallados.
-README.md: Este archivo, que proporciona una descripción general del proyecto y instrucciones de uso.
-Requisitos
-Python 3.x
-Bibliotecas:
-numpy
-pandas
-scikit-learn
-Keras (con TensorFlow como backend)
-Puedes instalar las dependencias utilizando:
+Este proyecto aprovecha el poder de una **Red Neuronal Artificial (RNA)** para predecir si un vino es de **alta calidad** (puntuación ≥ 7) o **baja calidad** (puntuación < 7) a partir de sus características fisicoquímicas.
 
-Bash
+## 🚀 Contenido
+
+- `wine_quality.csv`: El dataset 🍇 utilizado para entrenar y evaluar el modelo.
+- `modelo_vino.ipynb` (o `.py`): El código fuente 🧠 con la implementación completa y comentarios detallados.
+- `README.md`: Este archivo que estás leyendo ahora mismo, ¡tu guía para entender y usar el proyecto!
+
+## 🛠️ Requisitos
+
+- Python 3.x
+- Bibliotecas:
+    - numpy
+    - pandas
+    - scikit-learn
+    - Keras (con TensorFlow como backend)
+
+Instala todo fácilmente con:
+
+```bash
 pip install numpy pandas scikit-learn keras tensorflow
-Usa el código con precaución.
-content_copy
-Cómo usar el modelo
-Clona el repositorio:
+```
 
-Bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-Usa el código con precaución.
-content_copy
-Ejecuta el código:
+## 🏃 Cómo usar el modelo
 
-Si tienes el código en un archivo .ipynb (Jupyter Notebook), ábrelo en Jupyter y ejecuta todas las celdas.
-Si tienes el código en un archivo .py, ejecútalo desde la terminal:
-Bash
-python modelo_vino.py
-Usa el código con precaución.
-content_copy
-Interpreta los resultados:
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   ```
 
-El script mostrará la matriz de confusión y la precisión del modelo en los datos de prueba.
-También realizará predicciones para dos nuevos ejemplos de vino.
-Estructura del modelo
-Entrada: 11 características fisicoquímicas del vino.
-Capas ocultas: Dos capas densas con 6 neuronas cada una, utilizando la función de activación ReLU.
-Capa de salida: Una neurona con activación sigmoide para la predicción binaria (alta/baja calidad).
-Dataset
-El dataset wine_quality.csv contiene información sobre vinos portugueses, incluyendo características como acidez fija, acidez volátil, ácido cítrico, azúcar residual, cloruros, dióxido de azufre libre, dióxido de azufre total, densidad, pH, sulfatos y alcohol. La variable objetivo es la calidad del vino (0-10), que se ha binarizado para este proyecto.
+2. **¡A ejecutar!**
+   - **Jupyter Notebook (`modelo_vino.ipynb`)**: Ábrelo en Jupyter y ejecuta todas las celdas.
+   - **Script Python (`modelo_vino.py`)**:
+     ```bash
+     python modelo_vino.py
+     ```
 
-Consideraciones
-El modelo ha sido entrenado con un conjunto de datos específico. Su rendimiento podría variar con otros tipos de vino.
-Experimenta con diferentes arquitecturas de red neuronal y parámetros para optimizar el rendimiento.
+3. **Interpreta los resultados:**
+   - Matriz de confusión: Compara predicciones vs. realidad.
+   - Precisión: Qué tan bien lo hizo el modelo en general.
+   - Predicciones: ¡Prueba con nuevos vinos!
+
+## 🧠 Estructura del modelo
+
+- **Entrada:** 11 características del vino (acidez, azúcar, etc.).
+- **Capas ocultas:** 2 capas densas (6 neuronas c/u) con activación ReLU.
+- **Capa de salida:** 1 neurona con activación sigmoide (0 = baja calidad, 1 = alta calidad).
+
+## 🍇 Dataset
+
+El dataset `wine_quality.csv` contiene información sobre vinos portugueses 🇵🇹, incluyendo:
+
+- Acidez fija, volátil, cítrica
+- Azúcar residual
+- Cloruros, dióxido de azufre
+- Densidad, pH, sulfatos
+- Alcohol
+- ¡Y la calidad (0-10) que queremos predecir!
+
+## ⚠️ Consideraciones
+
+- El modelo se entrenó con vinos portugueses. ¡Pruébalo con otras regiones!
+- Experimenta cambiando la arquitectura de la red o los parámetros. ¡Siempre hay margen de mejora!
+
+## 📄 Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+¡Espero que este README te sea útil! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en el repositorio. ¡Salud! 🍷
