@@ -5,7 +5,7 @@ Este proyecto aprovecha el poder de una **Red Neuronal Artificial (RNA)** para p
 ## 🚀 Contenido
 
 - `wine_quality.csv`: El dataset 🍇 utilizado para entrenar y evaluar el modelo.
-- `modelo_vino.ipynb` (o `.py`): El código fuente 🧠 con la implementación completa y comentarios detallados.
+- `modeloVinoSpyder.py`: El código fuente 🧠 con la implementación completa y comentarios detallados.
 - `README.md`: Este archivo que estás leyendo ahora mismo, ¡tu guía para entender y usar el proyecto!
 
 ## 🛠️ Requisitos
@@ -31,10 +31,9 @@ pip install numpy pandas scikit-learn keras tensorflow
    ```
 
 2. **¡A ejecutar!**
-   - **Jupyter Notebook (`modelo_vino.ipynb`)**: Ábrelo en Jupyter y ejecuta todas las celdas.
-   - **Script Python (`modelo_vino.py`)**:
+   - **Script Python (`modeloVinoSpyder.py`)**:
      ```bash
-     python modelo_vino.py
+     python modeloVinoSpyder.py
      ```
 
 3. **Interpreta los resultados:**
@@ -58,10 +57,3 @@ El dataset `wine_quality.csv` contiene información sobre vinos portugueses 🇵
 - Densidad, pH, sulfatos
 - Alcohol
 - ¡Y la calidad (0-10) que queremos predecir!
-
-## ⚠️ Consideraciones
-
-- El modelo se entrenó con vinos portugueses. ¡Pruébalo con otras regiones!
-- Experimenta cambiando la arquitectura de la red o los parámetros. ¡Siempre hay margen de mejora!
-
-
