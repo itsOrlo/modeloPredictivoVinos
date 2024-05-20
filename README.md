@@ -27,7 +27,7 @@ pip install numpy pandas scikit-learn keras tensorflow
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/itsOrlo/modeloPredictivoVinos.git
    ```
 
 2. **¡A ejecutar!**
@@ -64,10 +64,4 @@ El dataset `wine_quality.csv` contiene información sobre vinos portugueses 🇵
 - El modelo se entrenó con vinos portugueses. ¡Pruébalo con otras regiones!
 - Experimenta cambiando la arquitectura de la red o los parámetros. ¡Siempre hay margen de mejora!
 
-## 📄 Licencia
 
-Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
----
-
-¡Espero que este README te sea útil! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en el repositorio. ¡Salud! 🍷
